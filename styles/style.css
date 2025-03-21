@@ -1,0 +1,72 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    backdrop-filter: blur(4px);
+}
+
+.container {
+    background-color: rgb(213, 223, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px; */
+    height: 263px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container h2 {
+    font-weight: 600;
+    color: rgb(61, 100, 173);
+}
+
+.login-container {
+    margin-top: 0.9rem;
+}
+
+.login-container input {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    margin: 5px 0;
+    border: 1px solid #636262;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(61, 100, 173);
+    cursor: pointer;
+}
+
+.login-container button:hover{ 
+    background-color: rgb(52, 95, 145);
+}
+
+.login-container h5 {
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+    font-size: 10px;
+    text-align: left;
+}
